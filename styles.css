@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-image: url("img/folk-pattern.png");
+	font-family: 'Darker Grotesque', sans-serif;
+}
+
+p{
+	font-size: 55px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+img{
+	float: right;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+#small{
+	font-size: 1.55em;
+	font-weight: 570;
+}
+
+#smaller{
+	font-size: 1.3em;
+}
+
+#box-title{
+	font-weight: 800;
+	font-size: 30px;	
+}
+#box-paragraph{
+
+}
+.container{
+	position: relative;
+
+}
+
+.parent{
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+
+	width: 1200px;
+	height: 800px;
+	background-color: white;
+
+	box-shadow: 2px 3px 11px -1px rgba(0,0,0,0.9);
+
+}
+
+.parent .titlebar{
+	width: 100%;
+	height: 33.33%;
+	padding: 50px;
+	text-align: center;
+
+	background-color: transparent;
+}
+
+.parent .mainboxes{
+	width: 100%;
+	height: 66.66%;
+
+	background-color: transparent;
+}
+
+.box-container{
+	float: left;
+	height: 100%;
+	width: 33.33%;
+	background-color: transparent;
+}
+
+.box-container-child{
+	width: 100%;
+	height: 75%;
+	margin: 23% 0 23% 0;
+
+	background-color: transparent;
+}
+
+#white{
+	background-color: white;
+}
+
+#transparent{
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+#cyanborder{
+	border-color: cyan;
+}
+
+#yellowborder{
+	border-color: yellow;
+}
+
+#blueborder{
+	border-color: darkblue;
+}
+
+.textbox{
+	
+	background-color: white;
+	width: 80%;
+	height: 40%;
+	margin-left: 40px;
+	padding: 15px;
+
+	border-top: 6px solid red;
+	border-radius: 4px;
+
+	box-shadow: 2px 3px 11px -1px rgba(0,0,0,0.9);
+
+}
+
+.textbox-two{
+	background-color: white;
+	width: 80%;
+	height: 50%;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	padding: 15px;
+
+
+	border-top: 6px solid red;
+	border-radius: 4px;
+
+	box-shadow: 2px 3px 11px -1px rgba(0,0,0,0.9);
+
+}
